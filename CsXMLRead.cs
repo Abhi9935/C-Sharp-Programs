@@ -11,7 +11,7 @@ namespace ConsoleApp
 {
     class xmlDemo2
     {
-        static void Main123(String[] args)
+        static void Main(String[] args)
         {
             String lang = "en";
             FileStream fs = new FileStream("c:\\Demo.xml", FileMode.Open, FileAccess.Read);
